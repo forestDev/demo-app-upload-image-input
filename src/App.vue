@@ -31,7 +31,6 @@ const previewPhoto = (event: Event) => {
         id="photo"
         name="photo"
         accept="image/*"
-        capture="environment"
         class="photo-input"
         @change="previewPhoto($event)"
       />
